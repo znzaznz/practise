@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    /* *{
+        border: 0px;
+        padding: 0px;
+        margin:0;
+    } */
+        .div1{
+            background-color: red;
+            font-size: 5em;
+        }
+        .div1>span{
+            color: #FFC0CB;
+        }
+        .div2{
+            background-color: yellow;
+            font-size: 3em;
+        }
+        .div2 > p{
+            display: inline;
+            color: #0000FF;
+        }
+        .div3{
+            background-color: blue;
+            font-size: 4em;
+        }
+        .div3 > span{
+            color: #FEA507;
+        }
+        .xianglian1{
+            color: blue;
+            background-color: yellow;
+            text-decoration: underline;
+        }
+        .xianglian2{
+            color: yellow;
+            background-color: red;
+            font-size: 0.5em;
+        }
+        .car1{
+            background-color: #FF00FF;
+            color: #FFA500;
+        }
+        .car2{
+            background-color: #330000;
+            color: #CCD800;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <!-- 四种css的引入方式
+        css的引入有四种方式，分别是内联样式，外联样式，行内样式
+        行内样式很简单： <div class="example" style="background-color:red;"></div>
+        接下来是内联样式： 在head里面引入，格式如下————<style type="text/css"></style>
+        然后就能在style标签内任意写自己想写的东西了
+        接下来是外联样式：跟前面一样，也是在head中引入，格式如下————<style type="text/css" src='xxxx.css'></style>
+        然后xxxx.css里面写css就行了
+        还有一种是导入式，也是外联样式的一种：<style type="text/css">@import url(要导入的css文件的路径）</style>
+    -->
+    <!-- 接下来是完成我的作业 -->
+    <div class="div1"><span>这是div的样式可以设置</span></div>
+    <div class="div2"><p>这是一个段落</p></div>
+    <div class="div3"><span>这是div1</span></div>
+    <div style="font-size: 2em;">
+        <span style="color: red;">珠宝：</span><span class="xianglian1">项链：项链A价值5000万元，项链B价值60元钱</span><span class="xianglian2">砖石：砖石链A价值500000万元，砖石B价值60元钱</span><br>
+        <span style="color: #FF00FF;">车类：</span><span class="car1">汽车：汽车奥迪价值50万，汽车QQ价值1000万元</span><span class="car2">跑跑卡丁车：卡丁车A价值500万，卡丁车B价值10000万元</span>
+    </div>
+</body>
+</html>
