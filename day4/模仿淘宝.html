@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            list-style:none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+        header{
+            border: 1px solid yellow;
+            background-color: #F5F5F5;
+        }
+        .twonav {
+            margin:0 633px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 10px;
+        }
+        .clearfix:after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .hleft,.country,form{
+            float: left;
+        }
+        .hright{
+            float: right;
+        }
+        .hright ul > li{
+            float: left;
+        }
+        .hleft ul > li{
+            float: left;
+        }
+        header li a{
+            color: #6C6C6C;
+        }
+        .country{
+            
+        }
+        .jiantou{
+            border-top: 1px solid #A7A7A7;
+         	border-right: 1px solid #A7A7A7;
+            transform: rotate(135deg);
+            display:inline-block;
+    	    width: 5px;
+    	    height: 5px;
+            margin: 0 -2px 3px 12px;
+        }
+        header li{
+            margin-left: 20px;
+        }
+        .svg{
+            height: 10px;
+            width: 10px;
+            margin-right: 4px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 这里我是模仿得日版淘宝，因为中文版的太多了，不喜欢了，以此开始一直到模仿成功为止，我不停歇开工 -->
+    <header>
+        <div  class="clearfix twonav">
+            <nav class="hleft">
+                <ul class="clearfix">
+                    <li style="margin-left: 0;">   
+                         <a href="##" class="country" style="color: black;">日本</a><span class="jiantou"></span>
+                    </li>
+                    <li>
+                        <form  action="##" method="POST"">
+                            <a href="##" style="color: #F22E00; margin-right: 2px;">亲，请登录</a>
+                            <a href="##">免费注册</a>
+                        </form>
+                    </li>
+                    <li> 
+                        <a href="##" style="float: left;">手机逛淘宝</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="hright twonav2">
+                <ul class="clearfix">
+                    <li><a href="##">淘宝网首页</a></li>
+                    <li><a href="##">我的淘宝</a><span class="jiantou"></span></li>
+                    <li><img src="./images/购物车.svg" alt="购物车" class="svg"><a href="##">购物车</a><span class="jiantou"></span></li>
+                    <li><img src="./images/五角星.svg" alt="五角星"class="svg"><a href="##">收藏夹</a><span class="jiantou"></span></li>
+                    <li><a href="##">跨境物流管理</a></li>
+                    <li><a href="##">海外消费者帮助</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="searchBar">
+            <div>
+                <img src="##" alt="icon">
+            </div>
+            <div>
+                <form action="##">
+                    <input type="text" name="search" id="xx">
+                    <input type="submit">
+                </form>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+</body>
+</html>
