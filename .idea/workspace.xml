@@ -2,17 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb70390-10ff-4f38-b182-8f51ae98567c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/day3/仿照淘宝.html" beforeDir="false" afterPath="$PROJECT_DIR$/day3/仿照淘宝.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/reviewJava/reviewJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/reviewJava/src/primaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/reviewJava/src/primaryFunction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/reviewJava/src/reviewRandomAndArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5/reviewJava/src/回文数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/day8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day8/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/out/production/day7/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/out/production/day7/数据加密.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/src/数据加密.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XtHHmNI7quiecVMrlw16QrxO3E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,9 +42,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="day8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581858384867</updated>
       <workItem from="1581858386308" duration="93000" />
+      <workItem from="1583064061179" duration="258000" />
     </task>
     <servers />
   </component>
@@ -42,13 +84,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1059" y="441" key="FileChooserDialogImpl" timestamp="1581858463283">
+    <state x="772" y="275" key="#Project_Structure" timestamp="1583064211149">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1059" y="441" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1581858463283" />
-    <state x="654" y="310" key="new project wizard" timestamp="1581858476656">
+    <state x="772" y="275" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1583064211149" />
+    <state x="1059" y="443" width="536" height="640" key="FileChooserDialogImpl" timestamp="1583064309187">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="654" y="310" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1581858476656" />
+    <state x="1059" y="443" width="536" height="640" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1583064309187" />
+    <state x="654" y="310" key="new project wizard" timestamp="1583064316577">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="654" y="310" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1583064316577" />
   </component>
 </project>
